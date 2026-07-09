@@ -1,0 +1,29 @@
+body{
+    background-color:blue;
+    margin: 0;
+    height: 100vh;
+}
+form{
+    background-color: white;
+    width: 370px;
+    padding: 30px;
+    margin: 30%;
+    
+}#ml{
+    margin-left: 30%;
+}
+.mtb{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}.get{
+    background-color: blueviolet;
+    color: white;
+   width: 93%;
+   text-align: center;
+}
+.pl{
+    padding-left:48%;
+}
+.pr{
+    padding-right: 75%;
+}

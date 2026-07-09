@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}:root{
+    --main: blue;
+    --mainwidth:90%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}.container{
+    width: 90%;
+    margin: auto;
+}.full-container{
+    width: 100%;
+
+}.d-inline-block{
+    display: inline-block;
+}.main-color{
+    color: var(--main);
+}.main-bg{
+
+}.nav-item{
+    margin: 0 3% 0 0;
+
+}#x p{
+    width: 30%;
+    height: 100px;
+    background-color: aqua;
+    overflow:hidden;
+    line-height: 25px;
+    border: solid 3px black;
+    padding: 3%;
+    outline: solid 3px green;
+    border-top-left-radius: 50%;
+}
