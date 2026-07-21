@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/page4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+
+    <div class="logo">
+        <h2>MORENT</h2>
+    </div>
+
+    <!-- <div class="search">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="text" placeholder="Search something here">
+
+        <i class="fa-solid fa-sliders"></i>
+
+    </div> -->
+
+    <div class="icons">
+
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-gear"></i>
+
+        <img src="image/image.png" alt="">
+
+    </div>
+
+</nav>
+    <section class="checkout">
+
+    <!-- Left -->
+    <div class="left-side">
+
+        <!-- Billing Info -->
+        <div class="form-box">
+
+            <div class="title">
+                <div>
+                    <h2>Billing Info</h2>
+                    <p>Please enter your billing info</p>
+                </div>
+
+                <span>Step 1 of 4</span>
+            </div>
+
+            <form class="billing-form">
+
+                <div class="input-box">
+                    <label>Name</label>
+                    <input type="text" placeholder="Your name">
+                </div>
+
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="text" placeholder="Phone number">
+                </div>
+
+                <div class="input-box">
+                    <label>Address</label>
+                    <input type="text" placeholder="Address">
+                </div>
+
+                <div class="input-box">
+                    <label>Town / City</label>
+                    <input type="text" placeholder="Town or city">
+                </div>
+
+            </form>
+
+        </div>
+
+        <!-- Rental Info -->
+
+        <div class="form-box">
+
+            <div class="title">
+                <div>
+                    <h2>Rental Info</h2>
+                    <p>Please select your rental date</p>
+                </div>
+
+                <span>Step 2 of 4</span>
+            </div>
+
+            <h4>Pick-Up</h4>
+
+            <form class="billing-form">
+
+                <div class="input-box">
+                    <label>Locations</label>
+
+                    <select>
+                        <option>Select your city</option>
+                    </select>
+
+                </div>
+
+                <div class="input-box">
+                    <label>Date</label>
+
+                    <input type="date">
+
+                </div>
+
+                <div class="input-box">
+                    <label>Time</label>
+
+                    <input type="time">
+
+                </div>
+
+            </form>
+
+            <h4>Drop-Off</h4>
+
+            <form class="billing-form">
+
+                <div class="input-box">
+                    <label>Locations</label>
+
+                    <select>
+                        <option>Select your city</option>
+                    </select>
+
+                </div>
+
+                <div class="input-box">
+                    <label>Date</label>
+
+                    <input type="date">
+
+                </div>
+
+                <div class="input-box">
+                    <label>Time</label>
+
+                    <input type="time">
+
+                </div>
+
+            </form>
+
+        </div>
+        <!-- Payment Method -->
+
+<div class="form-box">
+
+    <div class="title">
+        <div>
+            <h2>Payment Method</h2>
+            <p>Please enter your payment method</p>
+        </div>
+
+        <span>Step 3 of 4</span>
+    </div>
+
+    <!-- Credit Card -->
+
+    <div class="payment-option">
+
+        <div class="radio-title">
+            <label>
+                <input type="radio" name="payment" checked>
+                Credit Card
+            </label>
+
+            <!-- <img src="images/visa.png" alt="Visa"> -->
+        </div>
+
+        <form class="billing-form">
+
+            <div class="input-box">
+                <label>Card Number</label>
+                <input type="text" placeholder="Card number">
+            </div>
+
+            <div class="input-box">
+                <label>Expiration Date</label>
+                <input type="text" placeholder="DD/MM/YY">
+            </div>
+
+            <div class="input-box">
+                <label>Card Holder</label>
+                <input type="text" placeholder="Card holder">
+            </div>
+
+            <div class="input-box">
+                <label>CVC</label>
+                <input type="text" placeholder="CVC">
+            </div>
+
+        </form>
+
+    </div>
+
+    <!-- PayPal -->
+
+    <div class="payment-option">
+
+        <div class="radio-title">
+
+            <label>
+                <input type="radio" name="payment">
+                PayPal
+            </label>
+
+            <!-- <img src="images/paypal.png" alt="PayPal"> -->
+
+        </div>
+
+    </div>
+
+    <!-- Bitcoin -->
+
+    <div class="payment-option">
+
+        <div class="radio-title">
+
+            <label>
+                <input type="radio" name="payment">
+                Bitcoin
+            </label>
+
+            <!-- <img src="images/bitcoin.png" alt="Bitcoin"> -->
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Confirmation -->
+
+<div class="form-box">
+
+    <div class="title">
+
+        <div>
+            <h2>Confirmation</h2>
+            <p>We are getting to the end. Just few clicks and your rental is ready.</p>
+        </div>
+
+        <span>Step 4 of 4</span>
+
+    </div>
+
+    <div class="check-box">
+
+        <label>
+            <input type="checkbox">
+            I agree with sending Marketing and newsletter emails.
+        </label>
+
+    </div>
+
+    <div class="check-box">
+
+        <label>
+            <input type="checkbox">
+            I agree with our terms and conditions and privacy policy.
+        </label>
+
+    </div>
+
+    <button class="rent-btn">
+        Rent Now
+    </button>
+
+    <div class="safe">
+
+        <h4>All your data are safe</h4>
+
+        <p>
+            We are using the most advanced security to provide you the best experience ever.
+        </p>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <!-- Right Card -->
+
+    <div class="summary-card">
+
+        <h2>Rental Summary</h2>
+
+        <p>
+            Prices may change depending on the length of the rental.
+        </p>
+
+        <div class="car">
+
+            <img src="image/image 7.png" alt="car">
+
+            <div>
+
+                <h3>Nissan GT-R</h3>
+
+                <span>★★★★★ 440+ Reviewer</span>
+
+            </div>
+
+        </div>
+
+        <div class="price">
+
+            <p>Subtotal</p>
+
+            <span>$80.00</span>
+
+        </div>
+
+        <div class="price">
+
+            <p>Tax</p>
+
+            <span>$0</span>
+
+        </div>
+
+        <div class="coupon">
+
+            <input type="text" placeholder="Apply promo code">
+
+            <button>Apply now</button>
+
+        </div>
+
+        <div class="total">
+
+            <div>
+
+                <h3>Total Rental Price</h3>
+
+                <small>Overall price and includes rental discount</small>
+
+            </div>
+
+            <h2>$80.00</h2>
+
+        </div>
+
+    </div>
+
+</section>
+<footer>
+
+    <div class="footer-top">
+
+        <div class="footer-logo">
+            <h2>MORENT</h2>
+            <p>
+                Our vision is to provide convenience and
+                help increase your sales business.
+            </p>
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+                <h3>About</h3>
+                <a href="#">How it works</a>
+                <a href="#">Featured</a>
+                <a href="#">Partnership</a>
+                <a href="#">Business Relation</a>
+            </div>
+
+            <div>
+                <h3>Community</h3>
+                <a href="#">Events</a>
+                <a href="#">Blog</a>
+                <a href="#">Podcast</a>
+                <a href="#">Invite a Friend</a>
+            </div>
+
+            <div>
+                <h3>Socials</h3>
+                <a href="#">Discord</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="footer-bottom">
+
+        <p>©2022 MORENT. All rights reserved.</p>
+
+        <div>
+            <a href="#">Privacy & Policy</a>
+            <a href="#">Terms & Condition</a>
+        </div>
+
+    </div>
+
+</footer>
+    
+</body>
+</html>
